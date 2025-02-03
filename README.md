@@ -43,7 +43,7 @@
   7. Training the Model
      * Define the optimizer, loss function, and the training loop. We will use a learning rate of 0.0001 and train for 10 epochs
     
-  8. Model Evaluation
+  8. Model Evaluation (Test or Training)
      * After training, the model is evaluated on both the test and training datasets. Below are the evaluation results:
         * Test Accuracy: 91%
         * Training Accuracy: 100%
