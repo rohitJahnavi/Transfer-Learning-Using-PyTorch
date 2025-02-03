@@ -47,3 +47,16 @@
      * After training, the model is evaluated on both the test and training datasets. Below are the evaluation results:
         * Test Accuracy: 91%
         * Training Accuracy: 100%
+      
+
+# Conclusion
+  * This project demonstrates the effectiveness of transfer learning with the pretrained VGG16 model for image classification. By fine-tuning the model and freezing the feature layers, we were able to achieve:
+
+   Test Accuracy: 91%
+   Training Accuracy: 100%
+This showcases the power of transfer learning for real-world applications.
+
+
+
+
+      
