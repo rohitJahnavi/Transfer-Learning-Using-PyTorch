@@ -1,4 +1,4 @@
-# Transfer-Learning-Using-PyTorch
+# Transfer-Learning-Using-PyTorch with VGG1y6
 
 
 # Overview
