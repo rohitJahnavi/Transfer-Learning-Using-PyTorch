@@ -18,3 +18,6 @@
     
   2. Check for GPU Availability
      * Before training, the code checks if a GPU is available, ensuring faster model training if supported by your hardware.
+    
+  3. Create a 4x4 Grid of Images
+     * Visualize the images in a 4x4 grid to get a better sense of the dataset.
