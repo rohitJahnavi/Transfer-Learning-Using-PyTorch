@@ -28,3 +28,10 @@
          * Center Crop (3,224, 224)
          * Tensor (0,1)  (# Scall)
          * Normalize
+      
+  5. Custom Dataset Class
+     * In this project, we define a custom dataset class to handle image data. The CustomDataset class allows us to load the dataset, apply transformations, and return the images and their corresponding labels.
+         * Key Features:
+           * Resizing: Images are resized to the required dimensions (28x28 in this case).
+           * Grayscale to RGB Conversion: If the image is grayscale, it is converted to an RGB format by repeating the grayscale values along the color channels.
+           * Transformation: Any custom transformations, such as resizing, cropping, or normalization, are applied during the image loading process.
