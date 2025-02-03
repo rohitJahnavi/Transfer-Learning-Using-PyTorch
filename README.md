@@ -21,3 +21,10 @@
     
   3. Create a 4x4 Grid of Images
      * Visualize the images in a 4x4 grid to get a better sense of the dataset.
+    
+  4. Data Transformations
+     * Data is preprocessed using the following transformations to match the input requirements of VGG16:
+         * Resize (3, 256, 256)
+         * Center Crop (3,224, 224)
+         * Tensor (0,1)  (# Scall)
+         * Normalize
