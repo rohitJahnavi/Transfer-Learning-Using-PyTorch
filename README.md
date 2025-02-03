@@ -35,3 +35,15 @@
            * Resizing: Images are resized to the required dimensions (28x28 in this case).
            * Grayscale to RGB Conversion: If the image is grayscale, it is converted to an RGB format by repeating the grayscale values along the color channels.
            * Transformation: Any custom transformations, such as resizing, cropping, or normalization, are applied during the image loading process.
+          
+  6. Fetch Pretrained VGG16 Model
+     * We fetch the VGG16 model pretrained on ImageNet and transfer it to the appropriate device (GPU or CPU).
+     * The vgg16 model is loaded with weights pretrained on ImageNet. By using this pretrained model, we can leverage the learned features from ImageNet and fine-tune the model for our specific task.
+    
+  7. Training the Model
+     * Define the optimizer, loss function, and the training loop. We will use a learning rate of 0.0001 and train for 10 epochs
+    
+  8. Model Evaluation
+     * After training, the model is evaluated on both the test and training datasets. Below are the evaluation results:
+        * Test Accuracy: 91%
+        * Training Accuracy: 100%
