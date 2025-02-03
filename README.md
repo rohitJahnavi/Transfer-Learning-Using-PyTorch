@@ -15,3 +15,6 @@
 # Steps :-
   1. Setting Random Seeds for Reproducibility
      * Random seeds are set to ensure that the results are reproducible across different runs.
+    
+  2. Check for GPU Availability
+     * Before training, the code checks if a GPU is available, ensuring faster model training if supported by your hardware.
