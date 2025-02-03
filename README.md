@@ -6,7 +6,7 @@
 
      * Setting Random Seeds for Reproducibility
      * Checking for GPU Availability
-     * Data Preprocessing and Transformations
+     * Data Preprocessing and Transformations (resize, center crop, tensor(scall), normalize)
      * Model Loading (Pretrained VGG16)
      * Training and Evaluation Loop
      * Model Evaluation on Test and Training Data
