@@ -42,19 +42,32 @@
     
   7. Training the Model
      * Define the optimizer, loss function, and the training loop. We will use a learning rate of 0.0001 and train for 10 epochs
+     * Define the optimizer, loss function, and the training loop. We will use a learning rate of 0.0001 and train for 20 epochs
     
   8. Model Evaluation (Test or Training)
      * After training, the model is evaluated on both the test and training datasets. Below are the evaluation results:
         * Test Accuracy: 91%
         * Training Accuracy: 100%
       
+     * After training, the model is evaluated on both the test and training datasets. Below are the evaluation results:
+       * Training Accuracy: 100%
+       * Test Accuracy: 90.17%
+      
 
 # Conclusion
-  * This project demonstrates the effectiveness of transfer learning with the pretrained VGG16 model for image classification. By fine-tuning the model and freezing the feature layers, we were able to achieve:
+  * This project demonstrates the effectiveness of transfer learning using the pretrained VGG16 model for image classification. By fine-tuning the model while freezing the feature extraction layers, we achieved the following results:
 
-   Test Accuracy: 91%
-   
-   Training Accuracy: 100%
+     Learning Rate: 0.0001, Epochs: 10
+
+       Training Accuracy: 100%
+       Test Accuracy: 91%
+    
+    Learning Rate: 0.0001, Epochs: 20
+
+       Training Accuracy: 100%
+       Test Accuracy: 90.17%
+
+These results suggest that while increasing the number of epochs maintains perfect training accuracy, test accuracy slightly decreases, indicating possible overfitting. This highlights the importance of early stopping and regularization in transfer learning for optimal generalization in real-world applications.
    
 This showcases the power of transfer learning for real-world applications.
 
