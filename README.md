@@ -57,19 +57,18 @@
 # Conclusion
   * This project demonstrates the effectiveness of transfer learning using the pretrained VGG16 model for image classification. By fine-tuning the model while freezing the feature extraction layers, we achieved the following results:
 
-     Learning Rate: 0.0001, Epochs: 10
+     * Learning Rate: 0.0001, Epochs: 10
 
-       Training Accuracy: 100%
-       Test Accuracy: 91%
+       * Training Accuracy: 100%
+       * Test Accuracy: 91%
     
-    Learning Rate: 0.0001, Epochs: 20
+   *  Learning Rate: 0.0001, Epochs: 20
 
-       Training Accuracy: 100%
-       Test Accuracy: 90.17%
+       * Training Accuracy: 100%
+       * Test Accuracy: 90.17%
 
-These results suggest that while increasing the number of epochs maintains perfect training accuracy, test accuracy slightly decreases, indicating possible overfitting. This highlights the importance of early stopping and regularization in transfer learning for optimal generalization in real-world applications.
+* These results suggest that while increasing the number of epochs maintains perfect training accuracy, test accuracy slightly decreases, indicating possible overfitting. This highlights the importance of early stopping and regularization in transfer learning for optimal generalization in real-world applications.
    
-This showcases the power of transfer learning for real-world applications.
 
 
 
