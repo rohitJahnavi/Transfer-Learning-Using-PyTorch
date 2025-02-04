@@ -62,7 +62,7 @@
        * Training Accuracy: 100%
        * Test Accuracy: 91%
     
-   *  Learning Rate: 0.0001, Epochs: 20
+     * Learning Rate: 0.0001, Epochs: 20
 
        * Training Accuracy: 100%
        * Test Accuracy: 90.17%
